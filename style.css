@@ -1,0 +1,290 @@
+ /* Basic CSS for hero section */
+ .hero {
+    background-image: url('phish.jpg'); /* Replace 'hero-image.jpg' with your actual image file */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+}
+.hero h1 {
+    font-size: 3rem; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    margin-bottom: 30px;
+}
+.hero .btn {
+    background-color: #ffd700;
+    color: #333;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.hero .btn:hover {
+    background-color: #ffcc00; /* Change background color on hover */
+}
+/* CSS for Phishing Basics section */
+#phishing-basics {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 50px 0; /* Add padding for spacing */
+}
+
+.container {
+    max-width: 800px; /* Set maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 0 20px; /* Add padding to container */
+}
+
+#phishing-basics h2 {
+    color: #333; /* Dark text color */
+    font-size: 2rem; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add spacing below heading */
+}
+
+#phishing-basics p {
+    color: #555; /* Medium text color */
+    font-size: 1.1rem; /* Adjust font size as needed */
+    line-height: 1.6; /* Set line height for readability */
+    margin-bottom: 15px; /* Add spacing below paragraphs */
+}
+
+#phishing-basics ul {
+    list-style-type: disc; /* Use bullet points for list */
+    color: #555; /* Medium text color */
+    font-size: 1.1rem; /* Adjust font size as needed */
+    line-height: 1.6; /* Set line height for readability */
+    margin-bottom: 20px; /* Add spacing below list */
+}
+
+#phishing-basics ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+}
+
+#phishing-basics ul li strong {
+    color: #333; /* Dark text color for list item headings */
+}
+
+
+        /* CSS for Dynamic Phishing Section */
+        #recognize-phishing {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 50px 0; /* Add padding for spacing */
+            text-align: center; /* Center align content */
+        }
+
+        .container {
+            max-width: 800px; /* Set maximum width for content */
+            margin: 0 auto; /* Center content horizontally */
+            padding: 0 20px; /* Add padding to container */
+        }
+
+        #recognize-phishing h2 {
+            color: #333; /* Dark text color */
+            font-size: 2rem; /* Adjust font size as needed */
+            margin-bottom: 30px; /* Add spacing below heading */
+        }
+
+        #quiz-container {
+            background-color: #fff; /* White background color */
+            padding: 30px; /* Add padding for spacing */
+            border-radius: 10px; /* Add border radius */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+            text-align: left; /* Align quiz to left */
+        }
+
+        #quiz-question {
+            font-size: 1.2rem; /* Adjust font size as needed */
+            margin-bottom: 30px; /* Add spacing below question */
+        }
+
+        .quiz-option {
+            margin-bottom: 15px; /* Add spacing between options */
+        }
+
+        .btn-submit {
+            background-color: #ffd700; /* Yellow background color */
+            color: #333; /* Dark text color */
+            padding: 12px 24px; /* Add padding to button */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add border radius */
+            text-transform: uppercase; /* Convert text to uppercase */
+            font-weight: bold; /* Add bold font weight */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            transition: background-color 0.3s; /* Add transition */
+        }
+
+        .btn-submit:hover {
+            background-color: #ffcc00; /* Darken background color on hover */
+        }
+
+        /* CSS for Protecting Yourself from Phishing section */
+        #protect-from-phishing {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 50px 0; /* Add padding for spacing */
+            text-align: center; /* Center align content */
+        }
+
+        .container {
+            max-width: 800px; /* Set maximum width for content */
+            margin: 0 auto; /* Center content horizontally */
+            padding: 0 20px; /* Add padding to container */
+        }
+
+        #protect-from-phishing h2 {
+            color: #333; /* Dark text color */
+            font-size: 2rem; /* Adjust font size as needed */
+            margin-bottom: 30px; /* Add spacing below heading */
+        }
+
+        .tips-list {
+            text-align: left; /* Align list items to left */
+            margin-bottom: 30px; /* Add spacing below list */
+        }
+
+        .tips-list li {
+            font-size: 1.1rem; /* Adjust font size as needed */
+            margin-bottom: 15px; /* Add spacing between list items */
+        }
+
+        .btn-more-info {
+            background-color: #ffd700; /* Yellow background color */
+            color: #333; /* Dark text color */
+            padding: 12px 24px; /* Add padding to button */
+            border: none; /* Remove border */
+            border-radius: 5px; /* Add border radius */
+            text-transform: uppercase; /* Convert text to uppercase */
+            font-weight: bold; /* Add bold font weight */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            transition: background-color 0.3s; /* Add transition */
+        }
+
+        .btn-more-info:hover {
+            background-color: #ffcc00; /* Darken background color on hover */
+        }
+                /* CSS for Case Studies/Testimonials section */
+                #case-studies {
+                    background-color: #f8f9fa; /* Light gray background */
+                    padding: 50px 0; /* Add padding for spacing */
+                    text-align: center; /* Center align content */
+                }
+        
+                .container {
+                    max-width: 800px; /* Set maximum width for content */
+                    margin: 0 auto; /* Center content horizontally */
+                    padding: 0 20px; /* Add padding to container */
+                }
+        
+                #case-studies h2 {
+                    color: #333; /* Dark text color */
+                    font-size: 2rem; /* Adjust font size as needed */
+                    margin-bottom: 30px; /* Add spacing below heading */
+                }
+        
+                .testimonial {
+                    margin-bottom: 30px; /* Add spacing between testimonials */
+                    text-align: left; /* Align testimonial text to left */
+                }
+        
+                .testimonial p {
+                    font-size: 1.1rem; /* Adjust font size as needed */
+                    margin-bottom: 10px; /* Add spacing between paragraphs */
+                }
+        
+                .testimonial-author {
+                    font-style: italic; /* Italicize author name */
+                    color: #666; /* Medium text color */
+                }
+
+                        /* CSS for Additional Resources section */
+        #additional-resources {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 50px 0; /* Add padding for spacing */
+            text-align: center; /* Center align content */
+        }
+
+        .container {
+            max-width: 800px; /* Set maximum width for content */
+            margin: 0 auto; /* Center content horizontally */
+            padding: 0 20px; /* Add padding to container */
+        }
+
+        #additional-resources h2 {
+            color: #333; /* Dark text color */
+            font-size: 2rem; /* Adjust font size as needed */
+            margin-bottom: 30px; /* Add spacing below heading */
+        }
+
+        .resource-link {
+            display: block; /* Display links as block elements */
+            margin-bottom: 20px; /* Add spacing between links */
+            font-size: 1.1rem; /* Adjust font size as needed */
+            color: #007bff; /* Blue link color */
+            text-decoration: none; /* Remove default underline */
+            transition: color 0.3s; /* Add transition for color change */
+        }
+
+        .resource-link:hover {
+            color: #0056b3; /* Darken link color on hover */
+        }
+
+                /* CSS for Contact Me form section */
+                #contact-me {
+                    background-color: #f8f9fa; /* Light gray background */
+                    padding: 50px 0; /* Add padding for spacing */
+                    text-align: center; /* Center align content */
+                }
+        
+                .container {
+                    max-width: 800px; /* Set maximum width for content */
+                    margin: 0 auto; /* Center content horizontally */
+                    padding: 0 20px; /* Add padding to container */
+                }
+        
+                #contact-me h2 {
+                    color: #333; /* Dark text color */
+                    font-size: 2rem; /* Adjust font size as needed */
+                    margin-bottom: 30px; /* Add spacing below heading */
+                }
+        
+                .form-control {
+                    display: block; /* Display form controls as block elements */
+                    width: 100%; /* Set width to fill container */
+                    margin-bottom: 20px; /* Add spacing between form controls */
+                    padding: 10px; /* Add padding to form controls */
+                    border: 1px solid #ccc; /* Add border */
+                    border-radius: 5px; /* Add border radius */
+                    box-sizing: border-box; /* Include padding and border in width */
+                    font-size: 1.1rem; /* Adjust font size as needed */
+                }
+        
+                .form-control:focus {
+                    outline: none; /* Remove outline on focus */
+                    border-color: #007bff; /* Blue border color on focus */
+                }
+        
+                .btn-submit {
+                    background-color: #007bff; /* Blue background color */
+                    color: #fff; /* White text color */
+                    padding: 12px 24px; /* Add padding to button */
+                    border: none; /* Remove border */
+                    border-radius: 5px; /* Add border radius */
+                    text-transform: uppercase; /* Convert text to uppercase */
+                    font-weight: bold; /* Add bold font weight */
+                    cursor: pointer; /* Change cursor to pointer on hover */
+                    transition: background-color 0.3s; /* Add transition */
+                }
+        
+                .btn-submit:hover {
+                    background-color: #0056b3; /* Darken background color on hover */
+                }
